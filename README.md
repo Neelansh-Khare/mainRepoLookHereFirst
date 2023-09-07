@@ -2,7 +2,7 @@
 
 Hello!
 
-These repositories are a small collection of project's I've done over the past two years. Unfortunately, I was previously using my work Github to track my projects but had to migrate it here as it was not available to the public :slightly_frowning_face:.
+These repositories are a small collection of project's I've done over the past two years. Unfortunately there is a lack of previous commits as I was previously using my work Github to track my projects but had to migrate it here since it was not available to the public :slightly_frowning_face:.
 
 ![unnamed](https://github.com/Neelansh-Khare/mainRepoLookHereFirst/assets/100067515/6ba8d3da-0eb1-4dcd-8cbe-801e6885c905)
 
