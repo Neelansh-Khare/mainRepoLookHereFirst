@@ -1,0 +1,226 @@
+%-------------------------
+% Resume in Latex
+% Author : Neelansh Khare
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+
+\begin{center}  
+    \textbf{\Huge \scshape Neelansh Khare} \\ \vspace{1pt}
+    \small 949-992-6803 $|$ \href{mailto:kharen@uci.edu}{{kharen@uci.edu}} $|$ 
+    \href{https://linkedin.com/in/neelansh-khare}{{linkedin.com/in/neelansh-khare}} $|$
+    \href{https://github.com/Neelansh-Khare}{{github.com/Neelansh-Khare}} $|$
+    \href{https://neelanshkhare.notion.site/d518ba0af3604c1189da03c6ab047f3c}{{Neelansh's website}}
+\end{center}
+
+%-----------Objective-----------
+\section{Objective}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+   \textbf{}{Energetic Computer Science major with a profound passion for software engineering and business seeking a summer 2024 internship with a focus on Artificial Intelligence, Machine Learning, Automation, Quantitative Finance, Computer Vision, Crypto, Web3, Full Stack development, QA, cybersecurity, product management, UI/UX, or Virtual/Augmented Reality. Eager to apply my technical acumen, problem-solving skills, and academic expertise to drive innovation and make a meaningful impact in the business/finance and tech.} \\
+  }}
+  \end{itemize}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Irvine}{Irvine, CA}
+      {Bachelor of Science in Computer Science}{Aug. 2021 -- March 2025}
+      \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+         \textbf{Relevant Coursework: }{Intermediate Programming in Python, Data Structure Implementation and Analysis (C++), Programming Libraries in Python, Digital Systems, Probability/Stats for Computer Science in R, Software Engineering} \\
+         \textbf{Awards: }{Dean’s Honor List}\\
+         \textbf{Extracurrriculars: }{Software Developer for Legacy Robotics, Event Coordinator for the Indian Subcontinent Club (ISC), Intern for ASUCI, Volunteer for ENGin, Philanthropy Chair for Sigma Pi, Fundraising Chair for UCI Fits
+         }\\
+        }}
+        \end{itemize}
+  \resumeSubHeadingListEnd
+  
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Software Developer}{June 2022 -- Present}
+      {University of California, Irvine}{Irvine, CA}
+      \resumeItemListStart
+        \resumeItem{Developed Java applications, automating manual tasks, reducing time alloted by 90\%.}
+        \resumeItem{Created a Java web scraping tool using REST APIs to accelerate onboarding via documentation.
+        }
+        \resumeItem{Utilized Java, React, JavaScript, SQL, Git, Gradle, Spring, Maven, Excel, JUnit, and Atlassian Suite to complete 75+ Jira tasks for frontend, backend and database tickets on a forthcoming web application. 
+        }
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+      {\textbf{Python Based Applications} $|$ \emph{Python, PyGame, NumPy, Matplotlib, REST APIs, OpenCV, Sockets}}{}
+        \resumeItemListStart
+          \resumeItem{Created a Python AI script for stock tracking and automated, risk-averse sales using Bard and Schwab APIs.}
+          \resumeItem{Built an app with OpenCV and Matplotlib for recognizing individuals, household items and visualizing results.}
+          \resumeItem{Created playable versions of 2048, ConnectFour, and Columns using PyGame, NumPy, Sockets and related libraries.}
+          \resumeItem{Built Discord bots for engagement-boosting games, resulting in a 70\% increase in engagement.}
+        \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Full Stack Development} $|$ \emph{JavaScript, Java, Gradle, MongoDB, React, WordPress, HTML, CSS, REST APIs, AppScript}}{}
+          \resumeItemListStart
+            \resumeItem{Developed 4 full-stack club/stealth startup websites with Gradle/Java backend, React frontend, and MongoDB databases for clubs and startups.}
+            \resumeItem{Integrated PayPal API and implemented Google Sheets AppScript macros for data-related automations.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Data Structures} $|$ \emph{C++, Git}}{}
+          \resumeItemListStart         
+            \resumeItem{Created a custom C++ linked list with efficient node finding and insertion using pointers.}
+            \resumeItem{Enhanced runtime and space efficiency in a custom binary search tree through custom structs.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Undergraduate Research Opportunity Program} $|$ \emph{Python, TensorFlow, PyTorch}}{}
+          \resumeItemListStart
+          \resumeItem{Participated in a highly selective research program (UROP) at UCI, focused on autonomous vehicle software.}
+          \resumeItem{Explored frameworks such as TensorFlow, PyTorch and more under the guidance of a graduate student mentor.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Upkey Professional Development Workshop} $|$ \emph{Java, Figma}}{}
+          \resumeItemListStart
+          \resumeItem{Led a team to 3rd place with a full stack Java mobile app pitch.}
+          \resumeItem{Utilized Android Studio and Java primarliy to create the application with Figma for design.}
+          \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages/Frameworks: }{Proficient in Python, Java, JavaScript, React, SQL, C++, R, Git, Excel, Gradle, Maven. Familiar with ROS2, OpenCV, Node.js, AWS, TensorFlow, MongoDB.
+     } \\
+     \textbf{Developer Tools: }{Visual Studio Code, Eclipse, IntelliJ, IDLE, GitHub, Python Tutor, Excel, Atlassian Suite, BlueJ, SQL Server, Android Studio, Figma} \\
+     \textbf{Soft Skills: }{Great communication skills, proficient at working under pressure, dependable, able to work in a team, willingness to learn, adaptability}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
