@@ -20,19 +20,6 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -64,7 +51,7 @@
 % Custom commands
 \newcommand{\resumeItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-1pt}}
   }
 }
 
@@ -73,21 +60,14 @@
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-5pt}
 }
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
@@ -102,112 +82,101 @@
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\titlespacing*{\section}{0pt}{1\baselineskip}{0.75\baselineskip}
+\titlespacing*{\section}{0pt}{0.5\baselineskip}{0.5\baselineskip}
 \begin{document}
 
-
 \begin{center}  
-  \textbf{\Huge \scshape Neelansh Khare} \\ \vspace{1pt}
+  \textbf{\Large \scshape Neelansh Khare} \\ \vspace{1pt}
   \color{blue}
   \small \href{tel:19499926803}{{949-992-6803}}~$|$~\href{mailto:kharen@uci.edu}{{kharen@uci.edu}}~$|$~\href{https://linkedin.com/in/neelansh-khare}{{linkedin.com/in/neelansh-khare}}~$|$~\href{https://github.com/Neelansh-Khare}{{github.com/Neelansh-Khare}}~$|$~\href{https://neelansh-khare.github.io/portfolio/}{{neelansh-khare.github.io/portfolio}}
 \end{center}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt]
+\small{\item{
+ \textbf{Languages:} Python, Java, JavaScript, C++, C, Go, SQL, R
+}}
+\small{\item{
+ \textbf{Frameworks/Technologies:} React, AWS, TensorFlow, Docker, Git
+}}
+\end{itemize}
 
 %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of California - Irvine}{Irvine, CA}
-      {Bachelor of Science in Computer Science}{}
-      \begin{itemize}[leftmargin=0.15in, label={}]
+      {B.S. Computer Science}{Expected Graduation: June 2025}
+      \begin{itemize}[leftmargin=0.15in, label={}, itemsep=0pt]
         \small{\item{
-         \textbf{Relevant Coursework: }{Machine Learning \& AI, Data Structures and Algorithms, System Design, Data Management, Software Testing and QA, Compilers \& Operating Systems} \\
-         \textbf{Languages: }{Python, Java, JavaScript,  C++, C, R, Go}\\
-         \textbf{Frameworks/Technologies: }{React, AWS, TensorFlow}\\
-         \textbf{Developer Tools: }{SQL, Git, Docker}\\
-         \textbf{Leadership: }{Software Developer for ICSSC, President for the Indian Subcontinental Club, Google Developer Student Club, Volunteer for ENGin, Software Developer for Legacy Robotics, Data/Analytics Chair for Sigma Pi
-         }\\
+         \textbf{Relevant Coursework:} Machine Learning \& AI, Data Structures and Algorithms, System Design, Data Management, Compilers, Software Engineering and Testing
         }}
-        \end{itemize}
+        \small{\item{
+         \textbf{Leadership:} Software Developer (ICSSC), President (Indian Subcontinental Club), Google Developer Student Club, Data and Analytics for Sigma Pi, Software Developer for Legacy Robotics, Volunteer for ENGin
+        }}
+      \end{itemize}
   \resumeSubHeadingListEnd
   
-
-
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
       {Software Engineer}{June 2022 -- Present}
       {University of California, Irvine}{Irvine, CA}
       \resumeItemListStart
-        \resumeItem{Developed and deployed a \textbf{Java} automation system for effort reporting, reducing processing time by \textbf{90\%} and eliminating manual data entry errors.}
-        \resumeItem{Architected a documentation generator using \textbf{Java and RESTful APIs}, helping with quicker onboarding.
-        }
-        \resumeItem{Implemented and tested complex \textbf{backend} features for a financial aid portal using \textbf{Java and JUnit}, resulting in new features including faster data loading time by \textbf{30\%}.
-        }
-        \resumeItem{Resolved \textbf{frontend} visual bugs and created a frontend \textbf{testing framework} using \textbf{React and Playwright}, fixing UI inconsistencies. 
-        }
-        \resumeItem{Designed and implemented a database anonymization application using \textbf{Java and SQL}, to ensure FERPA compliance.
-        }
-        \resumeItem{Engineered \textbf{JavaScript} data processing scripts that created \textbf{SQL} queries automatically from an Excel sheet, saving hours for developers weekly.
-        }
+        \resumeItem{Developed a \textbf{Java} automation system for effort reporting, reducing processing time by \textbf{90\%}.}
+        \resumeItem{Architected a documentation generator using \textbf{Java and RESTful APIs}, improving onboarding efficiency.}
+        \resumeItem{Implemented \textbf{backend} features for a financial aid portal using \textbf{Java/JUnit}, improving data loading by \textbf{30\%}.}
+        \resumeItem{Created a frontend \textbf{testing framework} using \textbf{React and Playwright}, resolving UI inconsistencies.}
+        \resumeItem{Designed a database anonymization application using \textbf{Java/SQL} for FERPA compliance.}
       \resumeItemListEnd
     \resumeSubheading
       {Undergraduate Researcher}{January 2024 -- Present}
       {He Lab, University of California, Irvine}{Irvine, CA}
       \resumeItemListStart
-        \resumeItem{Developed a \textbf{deep-learning model} using computer vision to predict nano-particle motion, enabling advancements in material science research (Pending paper publication).}
-        \resumeItem{Engineered and optimized a Python based CNN for electron microscopy analysis, achieving \textbf{95\%} accuracy in particle identification as well as developed my own scripts for data inference and preprocessing.
-        }
-        \resumeItem{Created a synthetic \textbf{data generation} pipeline that can produce \textbf{10000+ realistic microscopy images}, enabling robust model training and validation. 
-        }
+        \resumeItem{Developed a \textbf{deep-learning model} for nano-particle motion prediction (pending paper publication).}
+        \resumeItem{Engineered a Python-based CNN for electron microscopy analysis, achieving \textbf{95\%} accuracy.}
+        \resumeItem{Created a synthetic \textbf{data generation} pipeline producing \textbf{10,000+} realistic microscopy images.}
       \resumeItemListEnd
-      
-% -----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-%    \resumeSubHeadingListEnd
-%-------------------------------------------
-
   \resumeSubHeadingListEnd
-
 
 %-----------PROJECTS-----------
 \section{Projects}
 \resumeSubHeadingListStart
 \resumeProjectHeading
-    {\textbf{AI Based Stock Trading} $|$ \emph{Python, REST APIs} $|$ \href{https://github.com/Neelansh-Khare/tradingScriptBardSchwab}{{github.com/Neelansh-Khare/tradingScriptBardSchwab}}}{}
+    {\textbf{AI-Based Stock Trading} $|$ \emph{Python, REST APIs} $|$ \href{https://github.com/Neelansh-Khare/tradingScriptBardSchwab}{{github.com/Neelansh-Khare/tradingScriptBardSchwab}}}{}
       \resumeItemListStart
-        \resumeItem{Engineered an automated trading system utilizing Bard AI for market analysis and Schwab APIs for execution.}
-        \resumeItem{Implemented \textbf{risk management algorithms} with stop-loss mechanisms.}
-        \resumeItem{Developed real-time market monitoring system processing data from an exchange with \textbf{sub-second latency}.}
+        \resumeItem{Engineered an automated trading system using AI for market analysis and Schwab APIs for execution.}
+        \resumeItem{Implemented risk management algorithms with stop-loss mechanisms, reducing potential losses by \textbf{15\%}.}
+        \resumeItem{Developed real-time market monitoring system with \textbf{sub-second latency}.}
       \resumeItemListEnd
 \resumeProjectHeading
-    {\textbf{Object Recognition Script} $|$ \emph{Python, Matplotlib, OpenCV} $|$ \href{https://github.com/Neelansh-Khare/ComputerVisionProgram}{{github.com/Neelansh-Khare/ComputerVisionProgram}}}{}
+    {\textbf{Object Recognition System} $|$ \emph{Python, OpenCV} $|$ \href{https://github.com/Neelansh-Khare/ComputerVisionProgram}{{github.com/Neelansh-Khare/ComputerVisionProgram}}}{}
       \resumeItemListStart
-        \resumeItem{Developed a real-time object detection system with \textbf{97\%} accuracy for household items using custom-trained \textbf{CNN} models.}
-        \resumeItem{Built a user-friendly \textbf{GUI} for real-time visualization and result logging using \textbf{Matplotlib}.}
+        \resumeItem{Built a real-time object detection system with \textbf{97\%} accuracy using custom-trained CNN models.}
+        \resumeItem{Designed a user-friendly GUI for visualization and result logging using Matplotlib.}
       \resumeItemListEnd
 \resumeProjectHeading
-    {\textbf{AI File Organizer} $|$ \emph{Python} $|$ \href{https://github.com/Neelansh-Khare/AI-File-Organizer}{{github.com/Neelansh-Khare/AI-File-Organizer}}}{}
+    {\textbf{AI File Organizer} $|$ \emph{Python, ML} $|$ \href{https://github.com/Neelansh-Khare/AI-File-Organizer}{{github.com/Neelansh-Khare/AI-File-Organizer}}}{}
       \resumeItemListStart
-        \resumeItem{Used K-Means and Silhouette score to automatically sort files into automatically clustered folders.}
-        \resumeItem{Used cosine similarity score to automatically sort files into predefined folder groups.}
-        \resumeItem{Implemented text processing and embedding for 8 different file types.}
+        \resumeItem{Engineered a file management system using K-Means clustering, reducing manual organization time by \textbf{75\%}.}
+        \resumeItem{Implemented cosine similarity algorithms for sorting files with \textbf{92\%} classification accuracy.}
+        \resumeItem{Developed text processing and embedding pipelines for 8 file types, handling \textbf{5,000+} test files.}
       \resumeItemListEnd
 \resumeProjectHeading
     {\textbf{Compiler and Interpreter} $|$ \emph{Python} $|$ \href{https://github.com/Neelansh-Khare/compiler-tiny}{{github.com/Neelansh-Khare/compiler-tiny}}}{}
       \resumeItemListStart
-        \resumeItem{Built a fully-functional compiler/interpreter from scratch in Python that processed the low level language Tiny.}
-        \resumeItem{Implemented a lexer, parser, and the ability to add user defined functions and variables.}
+        \resumeItem{Built a fully-functional compiler/interpreter for the Tiny language with lexer, parser, and semantic analyzer.}
+        \resumeItem{Implemented support for user-defined functions and variables in the language processing pipeline.}
       \resumeItemListEnd
-
+\resumeProjectHeading
+      {\textbf{Discord Bots} $|$ \emph{Python, REST APIs} $|$ \href{https://github.com/Neelansh-Khare/discordBots}{{https://github.com/Neelansh-Khare/discordBots}}}{}
+        \resumeItemListStart
+          \resumeItem{Implemented engagement features with a PostgreSQL leaderboard system, driving \textbf{70\%} increase in user
+          engagement.}
+          \resumeItem{Designed asynchronous event handling system for optimal performance during high-traffic periods avoiding deadlocks.}
+        \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-
-%-------------------------------------------
 \end{document}
